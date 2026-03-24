@@ -21,13 +21,13 @@
     },
     "mac": {
       "category": "public.app-category.productivity",
-      "icon": "build/icon.icns",
+      "icon": "build/icon.png",
       "target": [
         "dmg"
       ]
     },
     "dmg": {
-      "icon": "build/icon.icns",
+      "icon": "build/icon.png",
       "title": "Project Inkwell",
       "iconSize": 128,
       "contents": [

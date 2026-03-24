@@ -6,10 +6,17 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 function createWindow() {
+  const iconPath = path.join(__dirname, '../build/icon.png');
+  
+  if (process.platform === 'darwin') {
+    app.dock.setIcon(iconPath);
+  }
+
   const win = new BrowserWindow({
     width: 1200,
     height: 800,
     titleBarStyle: 'hiddenInset', // Adds a native macOS window look
+    icon: iconPath,
     webPreferences: {
       nodeIntegration: false,
       contextIsolation: true
