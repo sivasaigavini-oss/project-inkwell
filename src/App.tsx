@@ -107,9 +107,14 @@ import './index.css';
           flexDirection: 'column',
           zIndex: 10
         }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '40px' }}>
-            <InkwellLogo size={28} />
-            <h2 style={{ margin: 0, fontSize: '1.2rem', letterSpacing: '0.1em', fontFamily: 'var(--font-ui)', fontWeight: 500 }}>INKWELL</h2>
+          <div style={{ marginBottom: '40px' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+              <InkwellLogo size={28} />
+              <h2 style={{ margin: 0, fontSize: '1.2rem', letterSpacing: '0.1em', fontFamily: 'var(--font-ui)', fontWeight: 500 }}>INKWELL</h2>
+            </div>
+            <div style={{ fontSize: '0.7rem', fontWeight: 600, opacity: 0.4, letterSpacing: '0.05em', marginTop: '2px', marginLeft: '40px' }}>
+              @arya_writes
+            </div>
           </div>
           <div style={{fontFamily: 'var(--font-ui)', fontSize: '0.85rem', color: 'var(--text-secondary)', display: 'flex', flexDirection: 'column', gap: '20px'}}>
             
